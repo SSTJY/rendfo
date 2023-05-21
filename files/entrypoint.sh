@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'ptfmssp'}
-UUID=${UUID:-'70873eec-e6a4-4e55-bcde-b2f0049bf542'}
+WSPATH=${WSPATH:-'refmssp'}
+UUID=${UUID:-'7629ad92-3cac-49a2-955a-7ca994858c3c'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'pt4passwordKEgPW'}
-NEZHA_KEY=${NEZHA_KEY:-'lC3gclh7bYe4DzHzRd'}
+WEB_PASSWORD=${WEB_PASSWORD:-'rd4passwordKEgPW'}
+NEZHA_KEY=${NEZHA_KEY:-'edrnI2nZkObPMyeQpH'}
 NEZHA_SERVER=${NEZHA_SERVER:-'data6.picacho.eu.org'}
 NEZHA_PORT=${NEZHA_PORT:-'443'}
 NEZHA_TLS=${NEZHA_TLS:-'1'}
-SSH_DOMAIN=${SSH_DOMAIN:-'sspat4.googleone.eu.org'}
-ARGO_DOMAIN=${ARGO_DOMAIN:-'pat4.open-ai.software'}
-ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"0a62bb9c996da8c9fea4393857e1b56d","TunnelSecret":"bik567j34Cg5Uwo5+PZzuZDsEDnRYptLD94xXuePKQw=","TunnelID":"a330fa47-d877-4762-948a-6d348eeca619"}'}
+SSH_DOMAIN=${SSH_DOMAIN:-'ssrende5.googleone.eu.org'}
+ARGO_DOMAIN=${ARGO_DOMAIN:-'re4.open-ai.software'}
+ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"0a62bb9c996da8c9fea4393857e1b56d","TunnelSecret":"2gcwU4pTlv6YBOAWbpAoH1TmC1nYbuOD6LcmwNprhLk=","TunnelID":"374a11a9-f9f9-4adf-a0e0-f01bcc1007a6"}'}
 
 generate_config() {
   cat > config.json << EOF
