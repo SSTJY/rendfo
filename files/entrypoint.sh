@@ -3,15 +3,6 @@
 # 设置各变量
 WSPATH=${WSPATH:-'refmssp'}
 UUID=${UUID:-'7629ad92-3cac-49a2-955a-7ca994858c3c'}
-WEB_USERNAME=admin
-WEB_PASSWORD=rd4passwordKEgPW
-NEZHA_KEY=edrnI2nZkObPMyeQpH
-NEZHA_SERVER=data6.picacho.eu.org
-NEZHA_PORT=443
-NEZHA_TLS=1
-SSH_DOMAIN=ssrende5.googleone.eu.org
-ARGO_DOMAIN=re4.open-ai.software
-ARGO_AUTH='{"AccountTag":"0a62bb9c996da8c9fea4393857e1b56d","TunnelSecret":"2gcwU4pTlv6YBOAWbpAoH1TmC1nYbuOD6LcmwNprhLk=","TunnelID":"374a11a9-f9f9-4adf-a0e0-f01bcc1007a6"}'
 
 generate_config() {
   cat > config.json << EOF
