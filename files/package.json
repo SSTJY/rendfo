@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Express Hello World",
   "main": "server.js",
-  "repository": "https://github.com/SSTJY/partfo",
+  "repository": "https://github.com/SSTJY/rendfo",
   "author": "me",
   "license": "MIT",
   "private": false,
